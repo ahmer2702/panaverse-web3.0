@@ -1,0 +1,18 @@
+"use strict";
+const person = "Ahmer";
+const age = 25;
+const array = [12, 43, 76, 98];
+console.log("person === 'Ahmer'? 'I predict True'");
+console.log("person !== 'Ahmer'? 'I predict False'");
+console.log("person !== 'Ali'? 'I predict True'");
+console.log("person.toLowerCase() === 'Ahmer'? 'I predict False'");
+console.log("age === 25? 'I predict True'");
+console.log("age !== 25? 'I predict False'");
+console.log("age <= 45? 'I predict True'");
+console.log("age >= 30? 'I predict False'");
+console.log("age < 90? 'I predict True'");
+console.log("age > 12? 'I predict True'");
+console.log("age > 12 && age < 34? 'I predict True'");
+console.log("age > 9 || age < 23? 'I predict True'");
+console.log("array.includes(76)? 'I predict True'");
+console.log("!array.includes(13)? 'I predict True'");
