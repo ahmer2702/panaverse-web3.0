@@ -1,0 +1,13 @@
+let car: string = 'Honda';
+let age: number = 25;
+let isRainy: boolean = false;
+console.log("car === 'Honda'? 'I predict True'");
+console.log("car === 'Civic'? 'I predict False'");
+console.log("car !== 'Bugati'? 'I predict True'");
+console.log("age !== 25? 'I predict False'");
+console.log("age === 25? 'I predict True'");
+console.log("age === 20? 'I predict False'");
+console.log("isRainy === true? 'I predict False'");
+console.log("isRainy === false? 'I predict True'");
+console.log("isRainy === undefined? 'I predict False'");
+console.log("age !== undefined? 'I predict True'");
